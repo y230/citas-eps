@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CONSULTAS inner join </title>
+    <link rel="icon" href="../img/icono eps.jpg">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <style>
+      body{
+          background-color: #f7f6f6;
+      }
+      table thead{
+          background-color: #1dacee;
+          color: white;
+      }
+  </style>
+  </head>
+<body background="../img/body2.jpg">
+    <header>
+        <div class="text-black container">
+            <div class="row">
+                <div class=" col-lg-10">
+                    <br>
+                    <img src="../img/nueva eps.png" width="300">
+                    <br> <hr>
+                    <p><b><marquee>NUEVA EMPRESA PROMOTORA DE SALUD S.A. /
+                      Nit: 900.156.264-2 Domicilio principal: Bogotá D.C.</marquee></b></p>
+                </div>
+                <div class=" col-lg-2">
+                    <img src="../img/EVA.png" width="165">
+            </div>
+            </div>
+        </div>
+      </header>
+
+    <div class="container">
+     <!--- inicio del menu-->
+     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Menú</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active text-white" aria-current="page" href="./crud_diagnostico.html">CRUD tabla diagnostico</a>
+              <a class="nav-link text-white" href="./inicioSesion.html">Cerrar Sesion</a>
+        </div>
+      </div>
+     </nav>
+     <!---fin del menu-->
+      <br>
+      <hr>
+      <div class="container text-center "> <h5>-----INNER JOIN TABLA DIAGNOSTICO - RESERVACION -----</h5></div>
+      <hr>
+       <div class="container mt-4 shadow-lg p-3 mb-5 bg-body rounded">        
+       
+        <table id="tablaArticulos" class="table mt-2 table-bordered table-striped">
+            <thead>
+                <tr class="text-center">
+                  <th>Id diagnostico</th>
+                  <th>Asunto</th>
+                  <th>Comentarios</th>
+                  <th>Laboratorio</th>
+                  <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>                
+            </tbody>
+        </table>
+    </div>
+
+
+       <br>
+       <footer>  
+            <div class="row  bg-primary">
+            <div class=" col-lg-2">
+                    <img src="../img/EVA.png">
+            </div>
+            <div class=" col-lg-3">
+                <h6 class="text-center text-white container fst-italic fw-light"> <br> <br> <b>BARRANQUILLA / COLOMBIA</b> <br>
+                    KRA 70 # 76-80<br> <hr>
+                    CONTACTENOS <br>
+                    3456732-3456832 <br>
+                    Correo electronico: <br>
+                    nuevaeps@gmail.com
+                  </h6> 
+           </div>
+           <div class=" col-lg-3">
+            <h6 class="text-center text-white container fst-italic fw-light"> <br> <br> <b>REDES SOCIALES</b> <br> <br>
+                Facebook: NUEVA EPS <br>
+                Instagram: @NuevaEps<br> <hr>
+                Linea gratuita NACIONAL <br>
+                01 8000 560-560 
+              </h6> 
+            </div>
+            <div class=" col-lg-3">
+                <h6 class="text-center text-white container fst-italic fw-light"> <br> <br>  <b>Dirección Nacional</b> <br> <br>
+                    Carrera 85K No. 46A-66 <br> 
+                    Bogotá D.C., Colombia <br> <hr> 
+                    Teléfono administrativo <br>
+                    (60)1 419 3000
+                  </h6> 
+                </div>
+    </footer>
+    <br>
+    </div>
+    <script src="../js/inner.js"></script>
+</body>
+</html>
